@@ -48,6 +48,12 @@ const options = {
     default: false,
     description: 'Indent with tabs instead of spaces.'
   },
+  noConstructorVisibility: {
+    category: CATEGORY_SOLIDITY,
+    type: 'boolean',
+    default: false,
+    description: 'Remove constructor visibiltiy. ("public" or "internal")'
+  },
   explicitTypes: {
     category: CATEGORY_SOLIDITY,
     type: 'choice',
